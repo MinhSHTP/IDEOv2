@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_intro"
+            android:icon="@drawable/ic_intro_item"
+            android:title="Sơ lược ứng dụng" />
+        <item
+            android:id="@+id/item_navigation_drawer_research"
+            android:icon="@drawable/ic_research_item"
+            android:title="Tra cứu từ vựng" />
+        <item
+            android:id="@+id/item_navigation_drawer_learning"
+            android:icon="@drawable/ic_learning_item"
+            android:title="Học từ theo câu" />
+        <item
+            android:id="@+id/item_navigation_drawer_testing"
+            android:icon="@drawable/ic_testing_item"
+            android:title="Trắc nghiệm từ vựng" />
+        <item
+            android:id="@+id/item_navigation_drawer_exit"
+            android:icon="@drawable/ic_exit_item"
+            android:title="Thoát khỏi ứng dụng" />
+    </group>
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.minhh.ideo"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splash_screen_fix"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowThisWord"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/ThemeDictionary">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dictionary" />
+        </activity>
+        <activity
+            android:name=".Dictionary"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/ThemeDictionary">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".Introduce" -->
+        <!-- android:screenOrientation="sensorPortrait"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+        <!-- android:value=".Home" /> -->
+        <!-- </activity> -->
+        <activity android:name=".Web">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity android:name=".Testing"
+            android:label="Trắc nghiệm từ vựng"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/ThemeDictionary">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+    </application>
+
+</manifest>

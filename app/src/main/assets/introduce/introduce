@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width;user-scalable=no">
+    <meta charset="UTF-8">
+    <style>
+        p{
+        text-align:justify;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+<br><br><br>
+<img src="img/a.jpg" style="display:block; width:50%; margin:0px auto;"/>
+<br>
+<p>
+    &nbsp;&nbsp;Ngôn ngữ ký hiệu hay ngôn ngữ dấu hiệu, thủ ngữ là ngôn ngữ dùng những biểu hiện của
+    bàn tay thay cho âm thanh của tiếng nói. Ngôn ngữ ký hiệu do người điếc tạo ra nhằm giúp họ có
+    thể giao tiếp với nhau trong cộng đồng của mình và tiếp thu tri thức của xã hội..
+    <br><br>
+    <img src="img/b.jpg" style="display:block; width:50%; margin:0px auto;"/>
+    <br>
+    <img src="img/c.jpg" style="display:block; width:50%; margin:0px auto;"/>
+    <br>
+    &nbsp;&nbsp;Thực ra, NNKH chính là cuộc sống, vì nó bắt nguồn từ cuộc sống. Dù có hay không nhận
+    thức ra, nhưng chúng ta vẫn đã và đang sử dụng NNKH rất nhiều trong cuộc sống hàng ngày. Khoa
+    học đã chứng minh chúng ta truyền tải ngôn ngữ 70% thông qua các biện pháp không lời, tức là cử
+    chỉ, điệu bộ, nét mặt… Một biện pháp đơn giản để nhận ra tầm quan trọng của ngôn ngữ không lời
+    là bạn hãy thử nói chuyện mà nhắm mắt và hoàn toàn không cử động thân thể. Chỉ 30 phút thôi, bạn
+    sẽ ngạc nhiên nhận thấy hiệu quả câu chuyện rất thấp. Chúng ta hoàn toàn mất phương hướng và khả
+    năng phán đoán nếu không có các cử chỉ, điệu bộ, nét mắt của người đối thoại "hướng dẫn", cũng
+    như nếu không dùng tay chân thì hiệu quả truyền đạt cũng giảm hẳn.
+    <br><br>
+    <img src="img/d.jpg" style="display:block; width:50%; margin:0px auto;"/>
+    <br>
+    <img src="img/e.jpg" style="display:block; width:50%; margin:0px auto;"/>
+    <br>
+    &nbsp;&nbsp;Ứng dụng cung cấp và hỗ trợ tra cứu từ vựng của Ngôn ngữ ký hiệu cho người khiếm
+    thính. Ứng dụng giúp những đối tượng quan tâm và có hứng thú học ngôn ngữ này để có thể giao
+    tiếp với người khiếm thính.
+</p>
+<br>
+<img src="img/g.jpg" style="display:block; width:50%; margin:0px auto;"/>
+<br>
+<img src="img/h.jpg" style="display:block; width:50%; margin:0px auto;"/>
+<br><br><br><br>
+</body>
+</html>
