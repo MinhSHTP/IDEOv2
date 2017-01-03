@@ -90,6 +90,18 @@ public class Home extends AppCompatActivity {
                         startActivity(dictionaryActivity);
                         break;
                     case 2:
+                        android.app.AlertDialog.Builder builderNontify = new android.app.AlertDialog.Builder(Home.this);
+                        builderNontify
+                                .setTitle("Chức năng không khả dụng")
+                                .setMessage("Chức năng hiện chưa cập nhật, vui lòng đợi phiên bản sau")
+                                .setIcon(R.drawable.ic_alert_fix)
+                                .setPositiveButton("OK", new  DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        dialog.dismiss();
+                                    }
+                                });
+                        android.app.AlertDialog alertNontify = builderNontify.create();
+                        alertNontify.show();
 
                         break;
                     case 3:
